@@ -17,6 +17,9 @@ func main() {
 	// Init gin server
 	r := gin.Default()
 
+	// gin debug mode
+	gin.SetMode(gin.DebugMode)
+
 	// Init kafka writer
 	kafkaWriter := initKafkaWriter()
 

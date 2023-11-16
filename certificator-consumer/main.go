@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	_ "github.com/go-redis/redis/v8"
+	redis "github.com/go-redis/redis/v8"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/segmentio/kafka-go"

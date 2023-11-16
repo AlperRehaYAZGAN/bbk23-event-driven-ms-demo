@@ -1,0 +1,9 @@
+export PORT=8255
+export KAFKA_BROKER=localhost:9092
+export KAFKA_TOPIC=bb.event.course.completed
+export MINIO_ENDPOINT=localhost:9000
+export MINIO_ACCESS_KEY=minio123
+export MINIO_SECRET_KEY=minio123
+export MINIO_BUCKET=public
+export REDIS_ADDR=localhost:6379
+export REDIS_PASSWORD=1020304050
