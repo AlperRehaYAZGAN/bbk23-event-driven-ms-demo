@@ -5,6 +5,20 @@ Bu örnekte Kafka Redis Golang Gin webserver kurarak. Kullanıcılar kursları b
 
 ![Architecture](./bbk23-demo.drawio.png)
 
+### Requirements
+- Docker
+- Docker Compose
+- Golang 1.20
+
+### Clone Project  
+```bash
+# clean /root/workspace
+cd /root/workspace
+rm -rf /root/workspace/*
+git clone https://github.com/AlperRehaYAZGAN/bbk23-event-driven-ms-demo.git
+```
+
+
 ### Terminal 1
 ```bash
 cd course-server-producer
