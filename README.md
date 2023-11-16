@@ -15,7 +15,7 @@ Bu örnekte Kafka Redis Golang Gin webserver kurarak. Kullanıcılar kursları b
 # clean /root/workspace
 cd /root/workspace
 rm -rf /root/workspace/*
-git clone https://github.com/AlperRehaYAZGAN/bbk23-event-driven-ms-demo.git
+git clone https://github.com/AlperRehaYAZGAN/bbk23-event-driven-ms-demo.git .
 ```
 
 
